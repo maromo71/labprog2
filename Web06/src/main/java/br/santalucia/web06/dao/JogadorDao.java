@@ -29,7 +29,7 @@ public class JogadorDao {
 
     public List<Jogador> getJogadores(){
         em = JpaUtil.getEntityManager();
-        List<Jogador> lista = new ArrayList<>();
+        List lista = new ArrayList<>();
         Query query = em.createQuery("select j from Jogador j");
         lista = query.getResultList();
 
