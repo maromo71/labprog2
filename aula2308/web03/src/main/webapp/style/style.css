@@ -5,25 +5,32 @@ body {
     background-color: #f0f0f0;
 }
 header {
-    background-color: #F3C2BB;
-    color: #A83F2F;
+    background-color: #4a4e56;
+    color: #f1ecec;
     padding: 20px;
 }
 h1 {
-    margin: 0;
+    margin-bottom: 5px;
 }
 nav ul{
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin-top: 5px;
 }
 nav ul li {
     display: inline;
+    padding: 10px;
     margin-right: 10px;
 }
 nav ul li a {
     text-decoration: none;
-    color: #A83F2F;
+    color: #f0f0f0;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: #cac0c0;
+    background-color: #354666;
+    padding: 5px;
 }
 main {
     padding: 20px;
@@ -40,8 +47,8 @@ main {
     text-align: justify;
 }
 footer {
-    background-color: #F3C2BB;
-    color: #A83F2F;
+    background-color: #4a4e56;
+    color: #f1ecec;
     padding: 10px;
     text-align: center;
     position: fixed;
